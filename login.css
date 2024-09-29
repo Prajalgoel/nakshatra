@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/03/86/82/73/360_F_386827376_uWOOhKGk6A4UVL5imUBt20Bh8cmODqzx.jpg);
+}
+
+nav{
+    height: 100px;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+nav ul li .active:active{
+    text-decoration: underline;
+    color: red;
+}
+
+.login-btn{
+    background-color: skyblue;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.login-btn:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 50vh;
+    margin: 40px auto;
+    gap: 10px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login h1{
+    color: yellow;
+}
+
+.login .type{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(247, 236, 245);
+    color: black;
+    height: 50px;
+    width: 50vw;
+}
+
+.login .type::placeholder{
+    color: black;
+}
+
+.login .btn{
+    background-color: lightgreen;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 100px;
+    align-self: center;
+    font-size: 20px;
+    cursor: pointer; 
+}
+
+.login .btn:hover{
+    background-color: white;
+}
+
+.login p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.login .signup{
+    background-color: skyblue;
+}
+
+.login .signup a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    color: black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    justify-items: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer div{
+    text-align: center;
+}
+
+footer .icon a{
+    margin-left: 7px;
+}
+
+footer .icon a img{
+    border-radius: 100px;
+}
+
+
+.quick ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.quick ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
